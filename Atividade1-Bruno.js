@@ -5,7 +5,9 @@ var numero = "96";
 var saldo = 500;
 
 console.log(
-  "Olá thiago mazzi, conta número",
+  "Olá",
+  Nome,
+  "conta número",
   conta,
   ",Somos a",
   banco,
@@ -15,28 +17,36 @@ console.log(
   saldo,
   "Reais"
 );
+console.log("------------------------------------");
+console.log("Compra realizada no macdonalds, no valor de 150 Reais");
 saldo -= 150;
 console.log("------------------------------------");
 console.log("Compra realizada no macdonalds, no valor de 50 Reais");
-saldo -=50
+saldo -= 50;
 console.log("------------------------------------");
 console.log("Pix recebido de Bruno Martins no valor de 650 Reais");
-saldo += 650
+saldo += 650;
 console.log("------------------------------------");
 console.log("compra realizada na Americanas, no valor de 500 Reais");
-saldo -= 500
+saldo -= 500;
 console.log("------------------------------------");
 console.log("Você, pagou sua fatura no valor de 20 Reais");
-saldo -= 20
+saldo -= 20;
 console.log("------------------------------------");
 console.log("você recebeu 500 Reais de Bruno Martins");
-saldo += 500
+saldo += 500;
 console.log("------------------------------------");
 console.log(
-  "olá Thiago Mazzi, sua conta",
-  conta,
-  "Atualmente está com saldo de",
-  saldo,
-  " Reais. Obrigado pela preferência da Nubank",
-  numero
-);
+    "Olá",
+    Nome,
+    "conta número",
+    conta,
+    ",Somos a",
+    banco,
+    "Agência",
+    numero,
+    "Seu saldo atual é de",
+    saldo,
+    "Reais"
+  );
+  
